@@ -22,7 +22,7 @@ def lat_lng(city):
 def fetch_future_air_data(city):
     latitude, longitude = lat_lng(city)
     if latitude and longitude:
-        api_key = "9d7cde1f6d07ec55650544be1631307e"
+        api_key = "50d81d0af8c05407957b870bb461f8d9"
 
         URL = f"http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat={latitude}&lon={longitude}&appid={api_key}"
 
